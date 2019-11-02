@@ -1,0 +1,88 @@
+/*解决容器高度问题*/
+.q-layout{
+    min-height:100% !important;
+}
+.q-layout-page-container{
+    padding-top:36px !important;
+}
+
+.fullHeight{
+  height:100%;
+}
+.fullWidth{
+  width:100%;
+}
+.pointer{
+    cursor: pointer;
+}
+.transition{
+    transition:all 0.4s;
+}
+html,body{
+    padding:0;
+    margin:0;
+}
+
+
+/*小屏*/
+@media (max-width: 767px){
+
+        .q-breadcrumbs{
+            font-size:0.85em;
+            margin:0.5em 0
+        }
+
+}
+
+.MeditorTitle{
+    position:relative;
+    top:35px;
+    font-size: 0.75rem;
+    color: #979797;
+}
+.title{
+    font-size: 0.75rem;
+    color: #979797;
+}
+
+.editTitle{
+    font-size: 0.8rem;
+    font-weight: bold;
+    color:#979797;
+    padding-bottom:10px
+}
+
+.infoGroupTitle{
+    font-size:1.2em;
+    color:#8799a3;
+    font-weight:bold
+}
+.infoTitle{
+    min-width:5em;
+    margin-right:10px
+}
+.q-list{
+    padding:0
+}
+.q-list-sparse > .q-item, .q-item-sparse{
+    padding:8px 16px
+}
+
+.grid{
+    display: grid
+}
+.grid>div{
+    display: inline-grid;
+}
+.col-2{
+    grid-template-rows: repeat(2, 50%);
+}
+.col-3{
+    grid-template-rows: repeat(3, 33.33%);
+}
+.col-4{
+    grid-template-rows: repeat(4, 25%);
+}
+.q-scrollarea .q-item{
+    cursor:pointer
+}
