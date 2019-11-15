@@ -85,13 +85,13 @@
         </template>
       </q-input>
       <!-- 关于配送 -->
-      <q-input autogrow :rules="[ val => !!val || '不可为空']" v-model="form.deliveryInfo" label="关于配送"></q-input>
+      <q-input autogrow hint v-model="form.deliveryInfo" label="关于配送"></q-input>
       <!-- 关于电子票 -->
-      <q-input autogrow :rules="[ val => !!val || '不可为空']" v-model="form.eticketInfo" label="关于电子票"></q-input>
+      <q-input autogrow hint v-model="form.eticketInfo" label="关于电子票"></q-input>
       <!-- 关于发票 -->
-      <q-input autogrow :rules="[ val => !!val || '不可为空']" v-model="form.invoiceInfo" label="关于发票"></q-input>
+      <q-input autogrow hint v-model="form.invoiceInfo" label="关于发票"></q-input>
       <!-- 其他说明 -->
-      <q-input autogrow :rules="[ val => !!val || '不可为空']" v-model="form.elseInfo" label="其他说明"></q-input>
+      <q-input autogrow hint v-model="form.elseInfo" label="其他说明"></q-input>
       <q-btn color="info" class="q-mr-lg q-mt-lg" flat label="返回" @click="$router.back(-1)" />
 
       <q-btn color="primary" class="q-mt-lg" glossy label="点击提交表单" type="submit" />

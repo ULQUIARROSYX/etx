@@ -83,7 +83,7 @@ export default {
           //   this.form.openInf = JSON.parse(this.form.openInf)
           this.form.roles = JSON.parse(this.form.roles)
           console.log('成功')
-          this.getRole()
+          //   this.getRole()
         })
       }
     },

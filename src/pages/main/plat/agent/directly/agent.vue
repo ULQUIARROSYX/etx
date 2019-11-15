@@ -16,7 +16,7 @@
       </div>
       <!--新增-->
       <div class="col text-right">
-        <q-btn color="secondary" icon="add_box" glossy label="新增渠道" @click="toPath('/plat/agent/editAgent')"></q-btn>
+        <q-btn color="secondary" icon="add_box" glossy label="新增渠道" @click="toPath('/plat/agent/directly/editAgent')"></q-btn>
       </div>
     </div>
 
