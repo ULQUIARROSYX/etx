@@ -1,7 +1,7 @@
 import axios from 'axios'
-// let baseURL = 'http://192.168.1.20:8888/api'
+let baseURL = 'http://192.168.1.20:8888/etx'
 // let baseURL = 'http://dev.gzetx.com:8080/etx'
-let baseURL = 'https://jia-1.cn/my/etx'
+// let baseURL = 'https://jia-1.cn/my/etx'
 
 export default ({ app, router, Vue }) => {
     const axiosInstance = axios.create({

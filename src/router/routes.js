@@ -51,7 +51,10 @@ const routes = [
                                 path: 'sell',
                                 component: () => import('pages/main/plat/agent/sell'),
                                 children: [
-                                    { path: '', component: () => import('pages/main/plat/agent/sell/sell') }
+                                    { path: '', component: () => import('pages/main/plat/agent/sell/sell') },
+                                    { path: 'stat', component: () => import('pages/main/plat/agent/sell/stat') },
+                                    { path: 'statAgent', component: () => import('pages/main/plat/agent/sell/statAgent') },
+                                    { path: 'order', component: () => import('pages/main/plat/agent/sell/order') }
                                 ]
                             }
                         ]
